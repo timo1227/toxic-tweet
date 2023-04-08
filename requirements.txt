@@ -3,5 +3,4 @@ torch
 transformers
 numpy
 scipy
-csv
 urllib
