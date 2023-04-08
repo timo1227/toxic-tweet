@@ -30,3 +30,5 @@ I manage all my docker containers.
 ## Streamlit
 
 <img src="./public/App.png" alt="Streamlit"  height="600" title="Streamlit">
+
+Link to the [App](https://huggingface.co/spaces/timo1227/Toxic-Tweets)
