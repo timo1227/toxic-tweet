@@ -1,4 +1,5 @@
-# Milestone 1
+# Fine tuning Language Models - Toxic Tweets
+## Milestone 1
 
 ## Docker Installation 
 I had Docker Installed on all machines already. I followed the guides on the official [Docker Website](https://docs.docker.com/engine/install/ubuntu/).\
@@ -12,3 +13,5 @@ I manage all my docker containers.
 ## Docker 
 
 <img src="./public/ContainerConsole.png" alt="Container Console"  height="600" title="Console">
+
+## Milestone 2
