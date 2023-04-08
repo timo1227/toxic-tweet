@@ -26,3 +26,7 @@ I manage all my docker containers.
 <img src="./public/ContainerConsole.png" alt="Container Console"  height="600" title="Console">
 
 ## Milestone 2
+
+## Streamlit
+
+<img src="./public/App.png" alt="Streamlit"  height="600" title="Streamlit">
