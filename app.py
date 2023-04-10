@@ -44,7 +44,9 @@ model = AutoModelForSequenceClassification.from_pretrained(MODEL)
 st.title("Sentiment Analysis")
 
 # Text input
-text = st.text_input("Enter your text here")
+text = st.text_input("Enter your text here", value="I love you")
+
+st.session_state.text = text
 
 # Button
 if st.button("Predict"):
