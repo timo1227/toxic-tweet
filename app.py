@@ -202,7 +202,13 @@ def predict_tweet(tweet):
 
 model = DistilBertClass()
 model.to(DEVICE)
-model.load_state_dict(torch.load("model.pt"))
+# Check if device is GPU or CPU and load the model accordingly
+if torch.cuda.is_available():
+    model.load_state_dict(torch.load(
+        "model.pt", map_location=torch.device('cuda')))
+else:
+    model.load_state_dict(torch.load(
+        "model.pt", map_location=torch.device('cpu')))
 
 tokenizer = DistilBertTokenizer.from_pretrained(
     'distilbert-base-uncased', truncation=True, do_lower_case=True)
