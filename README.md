@@ -48,4 +48,5 @@ Link to the [App](https://huggingface.co/spaces/timo1227/Toxic-Tweets)
 <img src="./public/LandingPage.png" alt="Landing Page"  height="800" title="Landing Page">
 
 Link to the [Landing Page](https://sites.google.com/njit.edu/toxictweets/)
+Link to the [Video](https://youtu.be/qhPa3_lQ9nc)
 Must be logged into NJIT Google Account to view.
